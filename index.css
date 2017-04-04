@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 98%;
+  height: 6em;
+  display: flex;
+  background: #9A1637;
+  margin: 0.5em auto;
+  align-items: center;
+}
+header .top1 {
+  width: 19em;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;
+}
+header .top2 {
+  width: 54%;
+  height: 100%;
+  display: flex;
+  margin-left: 10%;
+}
+header .top2 ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+header .top2 ul li {
+  width: 33.3%;
+  height: 50%;
+  display: flex;
+  background: red;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+}
+header .top2 ul li:nth-child(odd) {
+  background: #ba0d37;
+}
+header .top2 ul li:nth-child(even) {
+  background-color: rgba(186, 13, 55, 0.75);
+}
+header .top2 ul li:hover {
+  background-color: #BF3239;
+}
+.div1 {
+  width: 98%;
+  height: 0.8em;
+  display: flex;
+  background: #F3F0F4;
+  margin: -0.2em auto 0;
+}
+.body {
+  width: 70%;
+  margin-left: 15%;
+  font-family: "微软雅黑";
+  color: #494A4A;
+}
+.body > p:nth-of-type(1) {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.body > p:nth-of-type(2) {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.body > p:nth-of-type(3) span {
+  padding-bottom: 0.2em;
+  color: #CC3C3A;
+  border-bottom: 1px solid #E4E4E4;
+}
+.body h1 {
+  font-size: 4em;
+  color: #494A4A;
+  font-weight: 100;
+}
+.body ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.body ul li {
+  width: 50%;
+}
+.body ul li p {
+  line-height: 1.8em;
+}
+.body ul li > p:nth-of-type(1) {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.body button {
+  flex-grow: 0;
+  width: 12.5em;
+  height: 2em;
+  display: flex;
+  border: 0 solid red;
+  background-image: linear-gradient(0deg, #EEEBF0 50%, #F8F7F9 50%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  margin: 1em 2em;
+  box-shadow: 0 0 0 0.2em white, 0 0 0 0.4em #F4F1F5;
+  cursor: pointer;
+}
+.body button:hover {
+  box-shadow: 0 0 0 0.2em white, 0 0 0 0.4em #e0e0e0;
+}
+.body hr {
+  width: 3em;
+  border: 4px solid #F3F0F4;
+}
+.body .div2 {
+  margin-top: 1.5em;
+  width: 90%;
+  border: 8px #F3F0F4 solid;
+  padding: 0 5% 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 1.8em;
+}
+.body .div2 span {
+  padding-bottom: 0.2em;
+  color: #CC3C3A;
+  border-bottom: 1px solid #E4E4E4;
+}
+.body .div2 > p:nth-of-type(1) {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.body .div2 .div22 {
+  width: 8em;
+  height: 8em;
+  display: flex;
+  float: right;
+  border-radius: 1em;
+  background-image: url("images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: 8em 8em;
+}
+hr {
+  width: 97%;
+  border: 4px solid #E6E3E7;
+  margin: 3em auto 0.5em;
+}
+footer {
+  width: 98%;
+  background: #ba0d37;
+  margin: 0 auto;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+}
+footer ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 1.5em 1em;
+}
+footer ul li img {
+  margin-right: 0.6em;
+}
+footer > p:nth-of-type(1) {
+  font-size: 2em;
+  font-weight: 100;
+  margin-top: 1em;
+}
+footer button {
+  flex-grow: 0;
+  width: 12em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0 solid red;
+  background: #BF1937;
+  border-radius: 5em;
+  margin: 1em 2em;
+  box-shadow: 0 0 0 0.2em #CC3C3A, 0 0 0 0.4em #950A2C;
+  cursor: pointer;
+  color: white;
+}
+footer button:hover {
+  box-shadow: 0 0 0 0.2em #CE4442, 0 0 0 0.4em #950A2C;
+}
+footer p {
+  margin: 0.25em auto;
+  width: 80%;
+  text-align: center;
+}
+footerp:nth-of-type(5) {
+  margin: 2em auto;
+}
+footer div {
+  width: 40%;
+  margin-top: 1em;
+  display: flex;
+  border-bottom: 5px solid #CC3C3A;
+  margin-bottom: 2em;
+}
+footer div p {
+  width: 45%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+footer div p > :nth-of-type(4) {
+  margin-top: 1.5em;
+}
+footer div p > p:nth-of-type(4) span {
+  margin-left: 2em;
+}
+footer span {
+  border-bottom: 1px solid #CD516F;
+}
